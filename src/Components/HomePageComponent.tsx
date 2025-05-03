@@ -22,9 +22,11 @@ const HomePageComponent = () => {
             California, one drop at a time.
           </p>
         </div>
-        <button className="w-80 md:w-[400px] m-2 bg-[#FF9F1C] hover:bg-[#FFBF69] py-2 rounded-md text-lg cursor-pointer">
-          Start Saving
-        </button>
+        <Link href="../Login">
+          <button className="w-80 md:w-[400px] m-2 bg-[#FF9F1C] hover:bg-[#FFBF69] py-2 rounded-md text-lg cursor-pointer">
+            Start Saving
+          </button>
+        </Link>
       </div>
 
       <div className="place-items-center">
@@ -69,12 +71,12 @@ const HomePageComponent = () => {
         <div className="m-2 p-5">
 
           <p className="text-center font-semibold m-2 over">
-            Small System Water Conservation <br/>Assistance Program
+            Small System Water Conservation <br />Assistance Program
           </p>
           <Link
             href={
               "https://calmutuals.org/small-system-water-conservation-assistance-program/?utm_source=chatgpt.com"
-            }  target="_blank"
+            } target="_blank"
           >
             <button className="w-80 md:w-[400px] m-2 bg-[#FF9F1C] hover:bg-[#FFBF69] py-2 rounded-md text-lg cursor-pointer">
               Visit Website
