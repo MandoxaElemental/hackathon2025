@@ -92,9 +92,7 @@ const HomePageComponent = () => {
             </button>
           </Link>
 
-          <p className="text-center font-semibold m-2">
-            Water Conservation Assistance Program
-          </p>
+        
         </div>
       </div>
     </div>
