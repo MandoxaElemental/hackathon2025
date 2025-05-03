@@ -1,4 +1,3 @@
-import { Navbar, NavbarBrand } from "flowbite-react";
 import Link from "next/link";
 
 
@@ -10,16 +9,7 @@ export default function RootLayout({
 }>) {
   return (
     <div className="bg-[#CBF3F0] min-h-screen">
-      <div className="sticky top-0 z-50 ">
-        <Navbar
-          fluid
-          className="border-solid border-b-4 dark:border-[#2EC4B6] dark:bg-white"
-        >
-          <NavbarBrand as={Link} href="#">
-            <img src="/assets/kamino.svg" className="mr-3 h-20" alt="Kamino" />
-          </NavbarBrand>
-        </Navbar>
-      </div>
+      
 
       {children}
 
