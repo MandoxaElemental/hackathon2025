@@ -1,5 +1,4 @@
 import { Button, Checkbox, Label, TextInput } from 'flowbite-react'
-import Link from 'next/link'
 import React from 'react'
 
 const Login = () => {
@@ -18,21 +17,12 @@ const Login = () => {
         </div>
         <TextInput id="password1" type="password" required />
       </div>
-      <div className="flex items-center gap-2 my-2">
+      <div className="flex items-center gap-2">
         <Checkbox id="remember" />
         <Label htmlFor="remember">Remember me</Label>
       </div>
-      <Link href={"/Home"}>
-      <Button type="submit" className='bg-[#FF9F1C] hover:bg-[#FFBF69] pointer-cursor'>Submit</Button>
-      </Link>
-      <div className="text-center flex justify-center gap-2">
-        <Link href="/SignUp">
-        <p className='underline text-blue-500'>Create User</p>
-        </Link>
-        <p> | </p> <p>Login</p>
-      </div>
+      <Button type="submit">Submit</Button>
     </div>
-
 </div>
   )
 }
