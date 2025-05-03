@@ -22,9 +22,11 @@ const HomePageComponent = () => {
             California, one drop at a time.
           </p>
         </div>
+        <Link href={"/Login"}>
         <button className="w-80 md:w-[400px] m-2 bg-[#FF9F1C] hover:bg-[#FFBF69] py-2 rounded-md text-lg cursor-pointer">
           Start Saving
         </button>
+        </Link>
       </div>
 
       <div className="place-items-center">
