@@ -7,7 +7,7 @@ const page = () => {
 
         <h1 className='text-2xl mb-5'>More Resources on Water Conservation and Maintenance</h1>
 
-        <div className='grid grid-cols-1 p-5 bg-white rounded-lg md: w-[800px]'>
+        <div className='grid grid-cols-1 p-5 bg-white rounded-lg md: w-200'>
             <div className='mb-4' >
                 <p className='font-bold'>Vally Water</p>
                 <Link href={"https://www.valleywater.org/saving-water/indoor-conservation/water-saving-devices"} target="_blank" className=' hover:text-blue-500'>
