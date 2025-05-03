@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const HomePageComponent = () => {
   return (
-    <div className="flex justify-around p-5 mb-20">
+    <div className="flex justify-around max-xl:flex-col  p-5 mb-20">
 
       <div className="place-items-center">
         <div className="m-2 p-5 bg-white md:w-[400px] rounded-lg">
