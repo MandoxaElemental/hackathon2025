@@ -6,7 +6,7 @@ export function NavbarComponent() {
   return (
     <div className="sticky top-0 z-40">
       <Navbar fluid className="border-solid border-b-4 border-[#2EC4B6] dark:border-[#2EC4B6] bg-white dark:bg-white">
-        <NavbarBrand as={Link} href="#">
+        <NavbarBrand as={Link} href="/Home">
           <Image src="./assets/Kamino.svg" height={70} width={70} className="mr-3 h-20" alt="Kamino" />
         </NavbarBrand>
         <div className="flex gap-x-6">
