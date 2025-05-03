@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { NavbarComponent } from "@/Components/NavbarComponent";
+import FooterComponent from "@/Components/FooterComponent";
 
 export const metadata: Metadata = {
   title: "Hackathon2025",
@@ -18,6 +19,7 @@ export default function RootLayout({
         <div className="bg-[#CBF3F0] min-h-screen">
         <NavbarComponent/>
         {children}
+        <FooterComponent/>
         </div>
       </body>
     </html>
