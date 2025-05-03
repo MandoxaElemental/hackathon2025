@@ -9,9 +9,7 @@ export default function RootLayout({
 }>) {
   return (
     <div className="bg-[#CBF3F0] min-h-screen">
-
       {children}
-
 <FooterComponent/>
     </div>
   );
