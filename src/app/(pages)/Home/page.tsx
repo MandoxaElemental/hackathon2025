@@ -1,8 +1,6 @@
 'use client'
 
 import HomePageComponent from '@/Components/HomePageComponent'
-import { Button } from 'flowbite-react'
-import Link from 'next/link'
 import React from 'react'
 
 const Home = () => {
