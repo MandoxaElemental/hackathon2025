@@ -10,8 +10,12 @@ export function NavbarComponent() {
           <Image src="./assets/Kamino.svg" height={70} width={70} className="mr-3 h-20" alt="Kamino" />
         </NavbarBrand>
         <div className="flex gap-x-6">
+          <Link href={"/Login"}>
           <Button className="bg-[#FF9F1C] hover:bg-[#FFBF69]">Login</Button>
+          </Link>
+          <Link href='/SignUp'>
           <Button className="bg-[#FF9F1C] hover:bg-[#FFBF69]">Sign Up</Button>
+          </Link>
         </div>
       </Navbar>
     </div>
