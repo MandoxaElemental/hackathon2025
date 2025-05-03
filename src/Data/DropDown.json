@@ -1,0 +1,51 @@
+{
+    "brands": [
+      {
+        "name": "Kohler",
+        "types": [
+          {
+            "type": "Faucets",
+            "models": ["Simplice K-596", "Artifacts K-99259", "Bellera K-29106"]
+          },
+          {
+            "type": "Toilets",
+            "models": ["Santa Rosa K-3810", "Cimarron K-3609", "Wellworth K-3999"]
+          },
+          {
+            "type": "Shower Heads",
+            "models": ["Awaken G110", "Forté 22169-G", "Converge K-76465"]
+          }
+        ]
+      },
+      {
+        "name": "Moen",
+        "types": [
+          {
+            "type": "Faucets",
+            "models": ["Adler 87233", "Essie 87014", "Arbor 7594ESRS"]
+          },
+          {
+            "type": "Shower Heads",
+            "models": ["Magnetix 26008", "Velocity S6320", "Engage 26112"]
+          }
+        ]
+      },
+      {
+        "name": "Delta",
+        "types": [
+          {
+            "type": "Toilets",
+            "models": ["Prelude C43913", "Turner C41913"]
+          },
+          {
+            "type": "Faucets",
+            "models": ["Trinsic 9159T-AR-DST", "Linden 21996LF", "Foundations B2410LF"]
+          },
+          {
+            "type": "Shower Heads",
+            "models": ["H2Okinetic 52684", "In2ition 58480", "Touch-Clean 52664"]
+          }
+        ]
+      }
+    ]
+  }

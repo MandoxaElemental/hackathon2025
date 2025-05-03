@@ -5,9 +5,9 @@ import Link from "next/link";
 
 const HomePageComponent = () => {
   return (
-    <div className="grid grid-cols-1  p-5 mb-20">
+    <div className="flex justify-around p-5 mb-20">
 
-      <div className="mb-10"> 
+      <div className="place-items-center">
         <div className="m-2 p-5 bg-white md:w-[400px] rounded-lg">
           <p className="font-semibold mb-5">Saving Water:</p>
           <p>
@@ -27,7 +27,7 @@ const HomePageComponent = () => {
         </button>
       </div>
 
-      <div>
+      <div className="place-items-center">
         <div className="m-2 p-5 bg-white md:w-[400px] rounded-lg">
           <p className="font-semibold mb-5">Saving Water:</p>
           <p>
@@ -42,6 +42,14 @@ const HomePageComponent = () => {
             meaningful role in supporting statewide conservation efforts.
           </p>
 
+
+        </div>
+
+
+      </div>
+
+      <div className="place-items-center">
+        <div className="m-2 p-5 bg-white md:w-[400px] rounded-lg">
           <p className="font-semibold mt-15 mb-5">
             Checking Eligibility for Conservation Programs:
           </p>
@@ -56,35 +64,32 @@ const HomePageComponent = () => {
             to the state&apos;s long-term sustainability goals. Don&apos;t miss out on
             support that could help you conserve more and spend less.
           </p>
-
-
         </div>
-        
-        
-      </div>
 
-      <div className="">
-        <p className="text-center font-semibold m-2">
-          Small System Water Conservation Assistance Program
-        </p>
-        <Link
-          href={
-            "https://calmutuals.org/small-system-water-conservation-assistance-program/?utm_source=chatgpt.com"
-          }
-        >
-          <button className="w-80 md:w-[400px] m-2 bg-[#FF9F1C] hover:bg-[#FFBF69] py-2 rounded-md text-lg cursor-pointer">
-            Visit Website
-          </button>
-        </Link>
+        <div className="m-2 p-5">
 
-        <p className="text-center font-semibold m-2">
+          <p className="text-center font-semibold m-2 over">
+            Small System Water Conservation <br/>Assistance Program
+          </p>
+          <Link
+            href={
+              "https://calmutuals.org/small-system-water-conservation-assistance-program/?utm_source=chatgpt.com"
+            }  target="_blank"
+          >
+            <button className="w-80 md:w-[400px] m-2 bg-[#FF9F1C] hover:bg-[#FFBF69] py-2 rounded-md text-lg cursor-pointer">
+              Visit Website
+            </button>
+          </Link>
+
+          <p className="text-center font-semibold m-2">
             Water Conservation Assistance Program
-        </p>
-        <Link href={"https://www.watersaverprogram.com/"}>
-          <button className="w-80 md:w-[400px] m-2 bg-[#FF9F1C] hover:bg-[#FFBF69] py-2 rounded-md text-lg cursor-pointer">
-            Visit Website
-          </button>
-        </Link>{" "}
+          </p>
+          <Link href={"https://www.watersaverprogram.com/"} target="_blank">
+            <button className="w-80 md:w-[400px] m-2 bg-[#FF9F1C] hover:bg-[#FFBF69] py-2 rounded-md text-lg cursor-pointer">
+              Visit Website
+            </button>
+          </Link>{" "}
+        </div>
       </div>
     </div>
   );
