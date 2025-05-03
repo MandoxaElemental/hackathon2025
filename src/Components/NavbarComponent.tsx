@@ -16,6 +16,9 @@ export function NavbarComponent() {
           <Link href='/SignUp'>
           <Button className="bg-[#FF9F1C] hover:bg-[#FFBF69]">Sign Up</Button>
           </Link>
+          <Link href='/More'>
+          <Button className="bg-[#FF9F1C] hover:bg-[#FFBF69]">More</Button>
+          </Link>
         </div>
       </Navbar>
     </div>
