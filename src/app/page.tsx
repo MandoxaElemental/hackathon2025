@@ -1,10 +1,9 @@
-import { Button } from "flowbite-react";
-import Link from "next/link";
+import HomePageComponent from "@/Components/HomePageComponent";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen justify-center items-center">
-      
+    <div className='flex justify-center'>
+    <HomePageComponent />
     </div>
   );
 }
